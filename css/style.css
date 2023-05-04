@@ -124,16 +124,16 @@ input[type="search"] {
 .appMain{
   width: 100%;
   padding: var(--spacing-base) var(--spacing-lg);
-  display: flex;
-  flex-flow: row wrap;
-  /* display: grid;
-  grid-template-columns: 1fr;
+  /* display: flex;
+  flex-flow: row wrap; */
+  display: grid;
+  grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-template-areas: "book"
                        "news"
                        "board"
                        "favorite"
-                       "twitter"; */
+                       "twitter";
 }
 
 .book, .news, .board, .favorite, .twitter{
